@@ -22,7 +22,7 @@ if (età < 18) {
 }
   
 
-
+var n = outcome.toFixed(2);
 
 document.write('Totale biglietto:',outcome);
 
