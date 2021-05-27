@@ -8,7 +8,7 @@ console.log('totale senza sconto',prezzo)
 var prezzoMinorenni = prezzo - prezzo * 20 / 100
 console.log('prezzo scontato minorenni', prezzoMinorenni)
 
-var prezzoOver65 = prezzo -prezzo * 40 / 100
+var prezzoOver65 = prezzo - prezzo * 40 / 100
 console.log('prezzo scontato over 65', prezzoOver65)
 
 var outcome = prezzo
@@ -21,10 +21,10 @@ if (età < 18) {
     console.log('prezzo scontato over 65');
 }
   
-
-var n = outcome.toFixed(2);
+var outcome = outcome.toFixed(2);
 
 document.write('Totale biglietto:',outcome);
+
 
 
 
